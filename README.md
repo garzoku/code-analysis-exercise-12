@@ -23,14 +23,18 @@ function (currentColor){
 
 | Input | Output |
 | ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+| green | yellow | 
+|yellow |  red   | 
+| red   | green  | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>1). The function accepts a string value which should be entered as the name of a color.<br>
+2). If the currentColor is equal to "green", the value of "yellow" is assigned to nextColor.<br>
+3). Else if means that this block of code will only execute if the first if statement returned false. So, if currentColor was not green, and it is equal to yellow, nextColor is assigned the value of "red".<br>
+4). Else if the currentColor was not green, nor yellow, but is equal to "red", then the value of "green" is assigned to nextColor.<br>
+SUMMARY: This program controls the flow of logic for a traffic light. If the light is green, and about to turn red, it turns yellow first.</td>
   </tr>
 </table>
 
